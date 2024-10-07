@@ -1,0 +1,21 @@
+import React from 'react';
+import { View, Text } from 'react-native';
+import { useTranslate } from "@/hooks/UseTranslate";
+import { styles } from "./styles";
+
+// Define the props interface if needed
+interface {{properCase name}}Props {
+  // Add props if needed
+}
+
+const {{properCase name}}: React.FC<{{properCase name}}Props> = () => {
+  const { translate } = useTranslate();
+
+  return (
+    <View style={styles.container}>
+      <Text>{{{properCase name}}}</Text>
+    </View>
+  );
+};
+
+export default {{properCase name}};
